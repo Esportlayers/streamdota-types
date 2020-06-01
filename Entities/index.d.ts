@@ -6,3 +6,4 @@ export * from './Streamer';
 export * from './User';
 export * from './Watcher';
 export * from './Command';
+export * from './Timer';

@@ -27,9 +27,3 @@ export interface BotData {
 	customBotToken: string;
 	commandTrigger: string;
 }
-
-export interface Timer {
-	period: number;
-	message: string;
-	active: boolean;
-}
