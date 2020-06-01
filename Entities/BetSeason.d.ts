@@ -1,9 +1,3 @@
-export const rolePrio: {[x: string]: number} = {
-    user: 0,
-    editor: 1,
-    owner: 2,
-}
-
 export interface BetSeason {
     id: number;
     name: string;
