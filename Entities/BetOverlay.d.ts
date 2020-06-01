@@ -1,4 +1,3 @@
-
 export interface BetOverlay {
     userId: number;
     fontFamily: string;
