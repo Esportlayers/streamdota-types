@@ -1,16 +1,16 @@
 {
-  "name": "@streamdota/shared-types",
-  "version": "1.0.2",
-  "description": "Collection of shared types between projects",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/streamdota/shared-types.git"
-  },
-  "author": "GriefCode",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/streamdota/shared-types/issues"
-  },
-  "homepage": "https://gitlab.com/streamdota/shared-types#readme",
-  "types": "index.d.ts"
+	"name": "@streamdota/shared-types",
+	"version": "1.0.3",
+	"description": "Collection of shared types between projects",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@gitlab.com/streamdota/shared-types.git"
+	},
+	"author": "GriefCode",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://gitlab.com/streamdota/shared-types/issues"
+	},
+	"homepage": "https://gitlab.com/streamdota/shared-types#readme",
+	"types": "index.d.ts"
 }
