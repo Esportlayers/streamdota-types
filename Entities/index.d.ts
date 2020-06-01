@@ -5,3 +5,4 @@ export * from './DotOverlay';
 export * from './Streamer';
 export * from './User';
 export * from './Watcher';
+export * from './Command';

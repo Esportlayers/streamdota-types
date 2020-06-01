@@ -28,13 +28,6 @@ export interface BotData {
 	commandTrigger: string;
 }
 
-export interface Command {
-	active: boolean;
-	command: string;
-	message: string;
-	type: 'default' | 'dotaWL' | 'betting_streamer' | 'betting_user';
-	identifier: 'startbet' | 'bet' | 'betwinner';
-}
 export interface Timer {
 	period: number;
 	message: string;
