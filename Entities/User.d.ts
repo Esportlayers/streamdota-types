@@ -11,7 +11,7 @@ export interface User {
 	dotaStatsFrom: string;
 	useBets: boolean;
 	betSeasonId: number | null;
-	gsiConnected: string;
+	gsiConnected: boolean;
 	frameApiKey: string;
 }
 
