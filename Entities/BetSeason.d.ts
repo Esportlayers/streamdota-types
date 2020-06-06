@@ -6,7 +6,9 @@ export interface BetSeason {
     type: 'ladder' | 'tournament' | 'other';
 }
 
-export interface BetSeasonToplistEntry {
+export interface BetSeasonToplist {
+    id: number;
+    betSeason: number;
     name: string;
     username: string;
     won: number;
