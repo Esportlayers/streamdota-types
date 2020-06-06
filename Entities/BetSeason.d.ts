@@ -6,15 +6,7 @@ export interface BetSeason {
     type: 'ladder' | 'tournament' | 'other';
 }
 
-export interface BetInvite {
-    betSeason: BetSeason;
-    owner: number;
-    inviteKey: string;
-    created: number;
-    status: 'open' | 'accepted' | 'denied';
-}
-
-export interface ToplistEntry {
+export interface BetSeasonToplistEntry {
     name: string;
     username: string;
     won: number;

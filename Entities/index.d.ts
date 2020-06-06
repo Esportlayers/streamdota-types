@@ -8,3 +8,5 @@ export * from './Watcher';
 export * from './Command';
 export * from './Timer';
 export * from './Font';
+export * from './BetSeasonInvite';
+export * from './BetSeasonUser';
