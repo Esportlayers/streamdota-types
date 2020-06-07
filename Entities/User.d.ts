@@ -14,16 +14,3 @@ export interface User {
 	gsiConnected: boolean;
 	frameApiKey: string;
 }
-
-export interface SteamConnection {
-	id: number;
-	userId: number;
-	steamId: string;
-}
-
-export interface BotData {
-	useBot: boolean;
-	customBotName: string;
-	customBotToken: string;
-	commandTrigger: string;
-}

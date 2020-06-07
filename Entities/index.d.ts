@@ -10,3 +10,5 @@ export * from './Timer';
 export * from './Font';
 export * from './BetSeasonInvite';
 export * from './BetSeasonUser';
+export * from './SteamConnection';
+export * from './DotaStats';
