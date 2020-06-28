@@ -4,15 +4,15 @@ export interface BetOverlay {
     fontVariant: string;
     distributionBackground: string;
     distributionFont: string;
-    distributionFontSize: string;
+    distributionFontSize: number;
     distributionColorLeft: string;
     distributionColorRight: string;
     timerBackground: string;
     timerFont: string;
-    timerFontSize: string;
+    timerFontSize: number;
     toplistBackground: string;
     toplistFont: string;
-    toplistFontSize: string;
+    toplistFontSize: number;
     toplistShowRank: boolean;
     toplistShowTotalBets: boolean;
     toplistShowAccuracy: boolean;
