@@ -10,9 +10,8 @@ export interface BetRound {
 }
 
 
-export interface BetRoundStats extends Omit<BetRound, 'betSeason'> {
+export interface BetRoundStats extends BetRound {
     total: number;
     aBets: number;
     bBets: number;
-    betSeasonId: number;
 }
