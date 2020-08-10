@@ -13,4 +13,5 @@ export interface User {
 	betSeasonId: number | null;
 	gsiConnected: boolean;
 	frameApiKey: string;
+	gsiActive: boolean;
 }
