@@ -12,5 +12,8 @@
 		"url": "https://gitlab.com/streamdota/shared-types/issues"
 	},
 	"homepage": "https://gitlab.com/streamdota/shared-types#readme",
-	"types": "index.d.ts"
+	"types": "index.d.ts",
+	"scripts": {
+		"publish": "npm publish --public"
+	}
 }
