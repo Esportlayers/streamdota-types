@@ -1,6 +1,6 @@
 {
 	"name": "@streamdota/shared-types",
-	"version": "1.0.19",
+	"version": "1.1.0",
 	"description": "Collection of shared types between projects",
 	"repository": {
 		"type": "git",
@@ -12,8 +12,5 @@
 		"url": "https://gitlab.com/streamdota/shared-types/issues"
 	},
 	"homepage": "https://gitlab.com/streamdota/shared-types#readme",
-	"types": "index.d.ts",
-	"scripts": {
-		"publish": "npm publish --public"
-	}
+	"types": "index.d.ts"
 }

@@ -12,3 +12,4 @@ export * from './BetSeasonInvite';
 export * from './BetSeasonUser';
 export * from './SteamConnection';
 export * from './DotaStats';
+export * from './RoshOverlay';
