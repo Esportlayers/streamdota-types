@@ -14,4 +14,5 @@ export interface User {
 	gsiConnected: boolean;
 	frameApiKey: string;
 	gsiActive: boolean;
+	status: 'active' | 'disabled';
 }
