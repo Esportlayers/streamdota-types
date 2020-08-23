@@ -7,4 +7,11 @@ export interface Command {
 	noResponse: boolean;
 	deleteAble: boolean;
 	identifier: 'bet' | 'startbet' | 'betwinner';
+	userAccess: boolean;
+	tier1Access: boolean;
+	tier2Access: boolean;
+	tier3Access: boolean;
+	vipAccess: boolean;
+	modAccess: boolean;
+	streamerAccess: boolean;
 }
