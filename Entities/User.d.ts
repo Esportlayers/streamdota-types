@@ -9,6 +9,8 @@ export interface User {
 	profileUrl: string;
 	gsiAuth: string;
 	dotaStatsFrom: string;
+	dotaStatsMenuHidden: boolean;
+	dotaStatsPickHidden: boolean;
 	useBets: boolean;
 	betSeasonId: number | null;
 	gsiConnected: boolean;
