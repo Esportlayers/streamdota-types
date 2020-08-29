@@ -4,7 +4,6 @@ export interface OverlayConfig {
     fontSize: number;
     variant: string;
     winColor: string;
-    dividerColor: string;
     lossColor: string;
 
     showBackground: boolean;
@@ -14,7 +13,4 @@ export interface OverlayConfig {
 
     lossX: number;
     lossY: number;
-
-    dividerX: number;
-    dividerY: number;
 }
