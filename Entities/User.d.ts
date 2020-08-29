@@ -17,4 +17,5 @@ export interface User {
 	frameApiKey: string;
 	gsiActive: boolean;
 	status: 'active' | 'disabled';
+	streamDelay: number;
 }
