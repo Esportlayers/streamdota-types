@@ -7,6 +7,7 @@ export interface BetOverlay {
     distributionFontSize: number;
     distributionColorLeft: string;
     distributionColorRight: string;
+    distributionNumbers: boolean;
     timerBackground: string;
     timerFont: string;
     timerFontSize: number;
