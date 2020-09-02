@@ -17,4 +17,5 @@ export interface BetOverlay {
     toplistShowRank: boolean;
     toplistShowTotalBets: boolean;
     toplistShowAccuracy: boolean;
+    toplistMaxEntry: number;
 }
