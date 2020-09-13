@@ -18,4 +18,6 @@ export interface User {
 	gsiActive: boolean;
 	status: 'active' | 'disabled';
 	streamDelay: number;
+	teamAName: string;
+	teamBName: string;
 }
