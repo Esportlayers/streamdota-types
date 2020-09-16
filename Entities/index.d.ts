@@ -14,3 +14,4 @@ export * from './SteamConnection';
 export * from './DotaStats';
 export * from './RoshOverlay';
 export * from './AdminUser';
+export * from './CastingOverlay';
