@@ -15,3 +15,4 @@ export * from './DotaStats';
 export * from './RoshOverlay';
 export * from './AdminUser';
 export * from './CastingOverlay';
+export * from './AntiSnipeOverlay';
