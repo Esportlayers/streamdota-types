@@ -20,4 +20,5 @@ export interface User {
 	streamDelay: number;
 	teamAName: string;
 	teamBName: string;
+	useAutomaticVoting: boolean;
 }
