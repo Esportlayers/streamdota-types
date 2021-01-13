@@ -21,4 +21,5 @@ export interface User {
 	teamAName: string;
 	teamBName: string;
 	useAutomaticVoting: boolean;
+	keywordListener: string | null;
 }
