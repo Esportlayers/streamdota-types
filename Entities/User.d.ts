@@ -22,4 +22,5 @@ export interface User {
 	teamBName: string;
 	useAutomaticVoting: boolean;
 	keywordListener: string | null;
+	useKeywordListener: boolean;
 }
