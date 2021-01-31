@@ -4,6 +4,7 @@ export interface BetSeason {
     description: string;
     userRole: 'owner' | 'editor' | 'user';
     type: 'ladder' | 'tournament' | 'other';
+    winnerCount: number;
 }
 
 export interface BetSeasonToplist {
