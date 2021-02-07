@@ -23,4 +23,11 @@ export interface User {
 	useAutomaticVoting: boolean;
 	keywordListener: string | null;
 	useKeywordListener: boolean;
+	individualOverlayVoteDistribution: boolean;
+	individualOverlayVoteToplist: boolean;
+	individualOverlayVoteTimer: boolean;
+	individualOverlayWLStats: boolean;
+	individualOverlayMinimap: boolean;
+	individualOverlayDraftStats: boolean;
+	individualOverlayVoteHeroStats: boolean;
 }
