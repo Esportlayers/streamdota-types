@@ -30,4 +30,13 @@ export interface User {
 	individualOverlayMinimap: boolean;
 	individualOverlayDraftStats: boolean;
 	individualOverlayVoteHeroStats: boolean;
+	individualOverlayRoshTimer: boolean;
+	useDotaStatsOverlay: boolean;
+	useMinimapOverlay: boolean;
+	useRoshanTimerOverlay: boolean;
+	useDraftStatsOverlay: boolean;
+	useHeroStatsOverlay: boolean;
+	useVoteToplistOverlay: boolean;
+	useVoteTimerOverlay: boolean;
+	useVoteDistributionOverlay: boolean;
 }
