@@ -16,3 +16,4 @@ export * from './RoshOverlay';
 export * from './AdminUser';
 export * from './CastingOverlay';
 export * from './AntiSnipeOverlay';
+export * from './Word';
