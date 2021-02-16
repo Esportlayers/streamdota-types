@@ -39,4 +39,5 @@ export interface User {
 	useVoteToplistOverlay: boolean;
 	useVoteTimerOverlay: boolean;
 	useVoteDistributionOverlay: boolean;
+	castingStatsSource: null | string;
 }
