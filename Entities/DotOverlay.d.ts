@@ -1,16 +1,18 @@
-
 export interface OverlayConfig {
-    font: string;
-    fontSize: number;
-    variant: string;
-    winColor: string;
-    lossColor: string;
+  font: string;
+  fontSize: number;
+  variant: string;
+  winColor: string;
+  lossColor: string;
 
-    showBackground: boolean;
+  showBackground: boolean;
 
-    winX: number;
-    winY: number;
+  winX: number;
+  winY: number;
 
-    lossX: number;
-    lossY: number;
+  lossX: number;
+  lossY: number;
+
+  alwaysVisible: boolean;
+  noAnimation: boolean;
 }
