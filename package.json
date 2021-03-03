@@ -1,6 +1,6 @@
 {
 	"name": "@streamdota/shared-types",
-	"version": "1.5.2",
+	"version": "1.5.3",
 	"description": "Collection of shared types between projects",
 	"repository": {
 		"type": "git",
