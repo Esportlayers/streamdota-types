@@ -41,4 +41,6 @@ export interface User {
   useVoteDistributionOverlay: boolean;
   useKeywordListenerOverlay: boolean;
   castingStatsSource: null | string;
+  usePredictions: boolean;
+  predictionDuration: number;
 }
