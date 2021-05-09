@@ -43,4 +43,11 @@ export interface User {
   castingStatsSource: null | string;
   usePredictions: boolean;
   predictionDuration: number;
+  hasPredictionAccess: number;
+  predictionPlayingTitle: string;
+  predictionPlayingOptionA: string;
+  predictionPlayingOptionB: string;
+  predictionObservingTitle: string;
+  predictionObservingOptionA: string;
+  predictionObservingOptionB: string;
 }
